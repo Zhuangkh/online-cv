@@ -176,7 +176,11 @@ p {
     margin-bottom: 60px;
   }
 
-  .experiences-section,
+  .experiences-section{
+    .intro {
+      margin-bottom: 30px;
+    }
+  }
   .educations-section {
     .item {
       margin-bottom: 30px;

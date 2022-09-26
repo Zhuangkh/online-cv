@@ -3,27 +3,27 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Kh Zhuang
+    tagline:  Senior 3D/AEC Software Engineer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: einsam0413@outlook.com
+    phone: (+86) 188 1412 1698
+    timezone: China/Hongkong Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website: zhuangkh.com #do not add http://
+    #linkedin: alandoe
+    #xing: alandoe
+    github: Zhuangkh
+    telegram: Zhuangkh # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -32,42 +32,34 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Chinese
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: Skilled
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Basketball
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Gaming
           link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have 7 years experience in the AEC industry, including 5 years of development. Now I'm foucus on building BIM applicaton to help engineers work more efficiently and more accurately. With the engineering experience, I can understand what the user needs most.
+
+      Familiar with open source, has contributed to OSS such as AntDesignBlazor, Erda, Moonglade etc. Follow technology and development trend of AEC industry (Also the reason why I know about Speckle，Ifc.js, blenderBIM).
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BS in Computer Science
+        university: South China University of Technology
+        time: 2019 - 2021
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +68,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Water Supply and Drainage Engineering
+        university: GuangZhou University
+        time: 2013 - 2016
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -89,114 +81,104 @@ education:
             - Bullet point
 experiences:
     title: Experiences
+    intro: >
+      I started my career as a BIM Specialist at Ubiquitous Technology and experienced some job transfers and promotions. Most of the projects I worked on were for internal engineers and a few for sales.
+
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Develop Manager
+        time: 2022 - Present
+        company: Ubiquitous Technology, GuangZhou
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          - Leading the R&D team, involved designing and implementing infrastructure, optimize workflow
+          - Implementing complex algorithms of engineering problem
+          - Provided technical support, training to clients
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: 2018 - 2021
+        company: Ubiquitous Technology, GuangZhou
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Developed multiple add-in features in Revit for BIM such as data conversion, modeling, automation design, rule checking tool, etc.
+          - Developed 3D rendering application for visualize data form different teams and software
+          - Provided in Revit API, BIM data format, C# &amp; WPF
+      - role: BIM Specialist
+        time: 2016 - 2017
+        company: Ubiquitous Technology, GuangZhou
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Create, analyze, and manage various 2D/3D models and BIM tools for multiple goals, including proposal submittals, preconstruction services, MEP coordination, constructability analysis
+          - Research of BIM automation workflow, implementation Dynamo automation script
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here's a quick look of some projects I've worked on. If you are interested, please contact me.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Aurora
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A real-time 3D Model collaboration hub. A project try to resolve interoperability and collaboration like Speckle's, has a WPF application that can be used as a server hub and Real-time rendering (using HelixToolkit), real-time data transfer via SignalR with Revit/Naviswork connectors."
 
-      - title: Tempo
+      - title: CloudKitchens
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "A generative design software provide intelligent business assessment for customers to site selection. The core algorithm is implemented around Decision Tree. Use Asp.Net Core backend (WTM framework) for data management, web forntend and Revit add-in for presentations."
 
-      - title: Atom
+      - title: ReCAD
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "A Revit add-in for exporting CAD drawings. Revit's DWG export setup is too simple but cannot meet the requirements of complex Chinese drawing specifications. This add-in has changed the workflow of engineers and has been well received by the BIM industry in China."
 
-      - title: Delta
+      - title: RevitLauncher
+        link: "https://github.com/Zhuangkh/RevitLauncher"
+        tagline: "RevitLauncher integrated in the windows context menu and other useful shell component (using COM API). With automatically detect the Revit file version, support opening the file in the new process, or open in the current existing Revit process."   
+
+      - title: Ubiquitous collaborative platform
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A collaborative platform for project information management and issue tracking, like Revizto. 3D Model support is based on ifcEngine &amp; Threejs and implemented data fragmentation, compression (using Draco), rendering scene management."
+
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Publications and patents during my work at Ubiquitous Technology.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: 建筑工程BIM创新深度应用——BIM软件研发
+        link: "https://www.amazon.com/%E5%BB%BA%E7%AD%91%E5%B7%A5%E7%A8%8BBIM%E5%88%9B%E6%96%B0%E6%B7%B1%E5%BA%A6%E5%BA%94%E7%94%A8-BIM%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91-BIM%E6%8A%80%E6%9C%AF%E5%8F%8A%E5%BA%94%E7%94%A8%E4%B8%9B%E4%B9%A6-%E5%8C%BF%E5%90%8D/dp/7112256453/ref=sr_1_1?keywords=BIM%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91&qid=1664200596&qu=eyJxc2MiOiIxLjM5IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sr=8-1"
+        authors: Yf Yang, Kh Zhuang, Yf Luo, Jg Zhang
+        conference: "China Architecture Publishing & Media co. ltd, ISBN: 978-7-112-25645-7, 2021"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "一种Revit和CAD的数据交互方法、装置及系统"
+        link: "https://patents.google.com/patent/CN111737785A"
+        authors: Ubiquitous Technology
+        conference: "Application CN202010586984.1A"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: 一种基于Revit的BIM正向设计出图系统
+        link: "https://patents.google.com/patent/CN111597600B"
+        authors: Ubiquitous Technology
+        conference: "Application CN202010455609.3A"
+
+      - title: 一种基于Revit的铝模板设计方法及系统
+        link: "https://patents.google.com/patent/CN110378039A"
+        authors: Ubiquitous Technology
+        conference: "Application CN201910666551.4A"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: .Net Stack (C#/WPF/Asp.Net Core/etc.)
         level: 95%
 
-      - name: Ruby on Rails
+      - name: AEC Software(Revit/CAD/etc.)
+        level: 90%
+
+      - name: Computer Graphic
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: REST
+        level: 80%
+
+      - name: Devops
+        level: 70%
+
+      - name: C++
         level: 60%
+
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
